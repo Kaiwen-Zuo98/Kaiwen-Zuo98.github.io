@@ -5,32 +5,41 @@ permalink: /
 
 profile:
   align: right
-  image: zilong.JPG
+  image: kaiwen.jpg
   email: >
-    <p>Email: z.zheng<code>[at]</code>ucla<code>[dot]</code>edu</p>
+    <p>Email: kaiwen.zuo<code>[at]</code>warwick<code>[dot]</code>ac<code>[dot]</code>uk</p>
+    <p>Cam Email: kz344<code>[at]</code>cam<code>[dot]</code>ac<code>[dot]</code>uk</p>
 
-news: true  # includes a list of news items
-selected_papers: true # includes a list of papers marked as "selected={true}"
-social: true  # includes social icons at the bottom of the page
-
+news: true
+selected_papers: true
+social: true
 ---
-I received my Ph.D. degree (21') from the Department of Computer Science at [University of California, Los Angeles (UCLA)](https://www.cs.ucla.edu/). My research interests lie in the intersection of statistical machine learning, natural language processing and cognition. Current research themes include:
-<!-- - **General Multimodal Perception:** General multimodal understanding, parsing and explainable modeling. -->
-- **Human AI Alignment**: Building interactive models that align with human values and social norms.
-- **Long-context Language Models:** Efficient training and inference of long-context language models.
-- **Generative Modeling:** Statistical generative modeling (e.g. EBMs, diffusions) on high-dimensional data.
 
-I am always looking for self-motivated **students** and long-term **collaborators**. Please contact me if you have excellent background or share similar research interests with me.
+I am currently a **Visiting Researcher** at the [Department of Computer Science and Technology, University of Cambridge](https://www.cst.cam.ac.uk/), where I collaborate on research in long-context large language models, multimodal learning, and AI for science and medicine.
 
+Concurrently, I am pursuing a **Ph.D. in Computer Science** at the [University of Warwick](https://warwick.ac.uk/), under the supervision of Professor **Ligang He**.
+
+Prior to my Ph.D., I earned my **MSc in Computer Science with Distinction** from **Newcastle University**, and a **BSc** degree from **Beijing Jiaotong University**.
+
+In addition to my doctoral research, I am a doctoral exchange student at the **Alan Turing Institute**, and an active member of **CBAIA**, **UK-CSAE**, and **CLSS-UK**. These affiliations allow me to collaborate with leading researchers across disciplines and foster strong academic networks.
+
+My research interests lie at the intersection of:
+
+- **Information Retrieval (IR)**  
+- **Large Language Models (LLMs)**  
+- **Graph Neural Networks (GNNs)**  
+- **AI for Science & Medicine**
+
+I am particularly interested in responsible AI systems that align with human values, and in the development of interpretable models for scientific discovery and healthcare reasoning.
+
+I am always open to collaboration with motivated **students** and **researchers**. Feel free to reach out if our interests align!
 
 <div id="news" class="section_break"></div>
 
 ## News
 
 {% if page.news %}
-<!-- <div id="news" class="post"> -->
   {% include news.html %}
-<!-- </div> -->
 {% endif %}
 
 <div id="publications" class="section_break"></div>
@@ -38,16 +47,14 @@ I am always looking for self-motivated **students** and long-term **collaborator
 ## Selected Publications
 
 {% if page.selected_papers %}
-<!-- <div id="publications" class="post"> -->
   {% include selected_papers.html %}
-<!-- </div> -->
 {% endif %}
-
 
 <div id="services" class="section_break"></div>
 
 <!-- ## Professional Services
 
-- <b>Conference reviewer</b> for ICML 2022-2023; ICLR 2022-2023; CVPR 2019-2022; NeurIPS 2020-2022; AAAI 2020-2022; ICCV 2019-2023; ECCV 2020-2022; BMVC 2020; WACV 2021
-- <b>Journal reviewer</b> for International Journal of Computer Vision (IJCV), Pattern Recognition (PR), Neurocomputing -->
+- <b>Conference reviewer</b> for AAAI, ECIR, ...
+- <b>Journal reviewer</b> for Information Retrieval Journal, etc.
+-->
 
