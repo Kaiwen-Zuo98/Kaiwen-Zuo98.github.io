@@ -56,6 +56,5 @@ I am always open to collaboration with motivated **students** and **researchers*
 <!-- ## Professional Services
 
 - <b>Conference reviewer</b> for AAAI, ECIR, ...
-- <b>Journal reviewer</b> for Information Retrieval Journal, etc.
--->
+- <b>Journal reviewer</b> for Information Retrieval Journal, etc.-->
 
