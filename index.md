@@ -5,7 +5,7 @@ permalink: /
 
 profile:
   align: right
-  image: 个人主页.jpg
+  image: assets/pdf/kaiwen.jpg
   email: >
     <p>Email: kaiwen.zuo<code>[at]</code>warwick<code>[dot]</code>ac<code>[dot]</code>uk</p>
     <p>Cam Email: kz344<code>[at]</code>cam<code>[dot]</code>ac<code>[dot]</code>uk</p>
