@@ -2,25 +2,22 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
-title:  Zilong Zheng's Homepage # the website title (if blank, full name will be used instead)
-first_name: Zilong
+title:  Kaiwen Zuo's Homepage
+first_name: Kaiwen
 middle_name:
-last_name: Zheng
-email: z.zheng@ucla.edu
-description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  Zilong's Home Page
+last_name: Zuo
+email: kaiwen.zuo@warwick.ac.uk
+description: > 
+  Homepage of Kaiwen Zuo – Ph.D. student at University of Warwick and visiting researcher at University of Cambridge.
 footer_text: >
   Powered by <a href="http://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
 
-# Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
-# Photos from <a href="https://unsplash.com" target="_blank">Unsplash</a>.
-
-host: # 0.0.0.0
-port: # 4000
-url:  # the base hostname & protocol for your site
-baseurl:  # the subpath of your site, e.g. /blog/
-last_updated: true # set to true if you want to display last updated in the footer
-impressum_path:  # set to path to include impressum link in the footer, use the same path as permalink in a page, helps to conform with EU GDPR
+host: 
+port: 
+url: 
+baseurl: 
+last_updated: true
+impressum_path: 
 
 # -----------------------------------------------------------------------------
 # Layout
@@ -28,57 +25,43 @@ impressum_path:  # set to path to include impressum link in the footer, use the 
 
 navbar_fixed: true
 footer_fixed: false
-
-# Dimensions
 max_width: 800px
-
-# TODO: add layout settings (single page vs. multi-page)
 
 # -----------------------------------------------------------------------------
 # Open Graph
 # -----------------------------------------------------------------------------
-# Display links to the page with a preview object on social media.
-serve_og_meta: false # Include Open Graph meta tags in the HTML head
-og_image: # The site-wide (default for all links) Open Graph preview image
+
+serve_og_meta: false 
+og_image: 
 
 # -----------------------------------------------------------------------------
 # Social integration
 # -----------------------------------------------------------------------------
 
-github_username: zilongzheng # your GitHub user name
-twitter_username: ZilongZheng # your Twitter handle
-linkedin_username: zilongzheng0318 # your LinkedIn user name
-scholar_userid: 9sDx70IAAAAJ # your Google Scholar ID
-orcid_id: # your ORCID ID
-medium_username: # your Medium username
-quora_username: # your Quora username
-publons_id: # your ID on Publons
-research_gate_profile: # your profile on ResearchGate
-blogger_url: # your blogger URL
-work_url: # work page URL
-keybase_username: # your keybase user name
-wikidata_id: # your wikidata id
-# cv: zilong_cv.pdf
+github_username: Kaiwen-Zuo98
+twitter_username: KaiwenZuo
+linkedin_username: kaiwen-zuo
+scholar_userid: Q8mevHIAAAAJ  # ← 修改为你的 Google Scholar ID（如有）
+orcid_id: 
+medium_username: 
+quora_username: 
+publons_id: 
+research_gate_profile: 
+blogger_url: 
+work_url: 
+keybase_username: 
+wikidata_id: 
 
 contact_note: 
 
-google_analytics: G-2827DVQB1G # out your google-analytics code
-panelbear_analytics: XXXXXXXXX # panelbear analytics site ID
+google_analytics: G-2827DVQB1G
 
 # -----------------------------------------------------------------------------
 # Blog
 # -----------------------------------------------------------------------------
 
-# blog_name: al-folio  # your blog must have a name for it to show up in the nav bar
-# blog_description: a simple whitespace theme for academics
-# permalink: /blog/:year/:title/
-
-# Pagination
 pagination:
   enabled: false
-
-# Comments
-# disqus_shortname: al-folio # put your disqus shortname
 
 # -----------------------------------------------------------------------------
 # Collections
@@ -105,10 +88,9 @@ news_limit: 5
 # Jekyll settings
 # -----------------------------------------------------------------------------
 
-# Markdown and syntax highlight
 markdown: kramdown
 highlighter: rouge
-highlight_theme: github  # https://github.com/jwarby/jekyll-pygments-themes
+highlight_theme: github
 kramdown:
   input: GFM
   syntax_highlighter_opts:
@@ -119,7 +101,6 @@ kramdown:
       line_numbers: false
       start_line: 1
 
-# Includes & excludes
 include: ['_pages']
 exclude:
   - bin
@@ -131,7 +112,6 @@ keep_files:
   - .nojekyll
   - .git
 
-# Plug-ins
 plugins:
   - jekyll-email-protect
   - jekyll-github-metadata
@@ -145,24 +125,18 @@ plugins:
 # -----------------------------------------------------------------------------
 
 scholar:
-
-  last_name: Zheng
-  first_name: Zilong
-
+  last_name: Zuo
+  first_name: Kaiwen
   style: modern-language-association
   locale: en
-
   source: /_bibliography/
   bibliography: papers.bib
   bibliography_template: bib
-
   replace_strings: true
   join_strings: true
-
   details_dir: bibliography
   details_layout: bibtex.html
   details_link: Details
-
   query: "@*"
 
 # -----------------------------------------------------------------------------
@@ -175,7 +149,7 @@ enable_mansory:             true
 enable_math:                true
 enable_tooltips:            false
 enable_darkmode:            true
-show_social_icons:          false
+show_social_icons:          true  # ← 启用社交图标
 
 # -----------------------------------------------------------------------------
 # Library versions
