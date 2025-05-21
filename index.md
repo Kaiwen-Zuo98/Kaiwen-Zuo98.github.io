@@ -8,8 +8,8 @@ profile:
   image: Kaiwen-Zuo98.github.io/assets/img/kaiwen.jpg
 
   email: >
-    <p>Cambridge Email: kz344<code>[at]</code>cam<code>[dot]</code>ac<code>[dot]</code>uk</p>
-    <p>Warwick Email: kaiwen.zuo<code>[at]</code>warwick<code>[dot]</code>ac<code>[dot]</code>uk</p>
+    <p>Cam Email: kz344<code>[at]</code>cam<code>[dot]</code>ac<code>[dot]</code>uk</p>
+    <p>Warwick Email: Kaiwen.Zuo<code>[at]</code>warwick<code>[dot]</code>ac<code>[dot]</code>uk</p>
     
 news: true
 selected_papers: true
