@@ -15,14 +15,7 @@ news: true
 selected_papers: true
 social: true
 ---
-
-I am currently a **Visiting Researcher** at the [Department of Computer Science and Technology, University of Cambridge](https://www.cst.cam.ac.uk/), where I collaborate on research in long-context large language models, multimodal learning, and AI for science and medicine.
-
-Concurrently, I am pursuing a **Ph.D. in Computer Science** at the [University of Warwick](https://warwick.ac.uk/), under the supervision of Professor **Ligang He**.
-
-Prior to my Ph.D., I earned my **MSc in Computer Science with Distinction** from **Newcastle University**, and a **BSc** degree from **Beijing Jiaotong University**.
-
-In addition to my doctoral research, I am a doctoral exchange student at the **Alan Turing Institute**, and an active member of **CBAIA**, **UK-CSAE**, and **CLSS-UK**. These affiliations allow me to collaborate with leading researchers across disciplines and foster strong academic networks.
+I am currently pursuing a **Ph.D. in Computer Science** at the [University of Warwick](https://warwick.ac.uk/), under the supervision of [Professor Ligang He](https://warwick.ac.uk/fac/sci/dcs/people/ligang_he/). In addition to my doctoral studies, I am a **Visiting Researcher** at the [Department of Computer Science and Technology, University of Cambridge](https://www.cst.cam.ac.uk/), working closely with [Professor Pietro Liò(MAE, FAAIA)](https://www.cl.cam.ac.uk/~pl219/). I am also a **Turing Enrichment Student** at the [Alan Turing Institute](https://www.turing.ac.uk/), where I collaborate with [Professor Anthony (Tony) (Cohn, FREng, FLSW, CEng, CITP, FAAAI, FEurAI, FAISB, FAAIA, FAIIA, FIET, FBCS)](https://eps.leeds.ac.uk/computing/staff/92/professor-tony-cohn). Prior to my Ph.D., I completed an **MSc in Computer Science with Distinction** at **Newcastle University**, and earned a **BSc** from **Beijing Jiaotong University**.
 
 My research interests lie at the intersection of:
 
@@ -30,6 +23,9 @@ My research interests lie at the intersection of:
 - **Large Language Models (LLMs)**  
 - **Graph Neural Networks (GNNs)**  
 - **AI for Science & Medicine**
+
+In addition to my doctoral research, I am a doctoral exchange student at the **Alan Turing Institute**, and an active member of **CBAIA**, **UK-CSAE**, and **CLSS-UK**. These affiliations allow me to collaborate with leading researchers across disciplines and foster strong academic networks.
+
 
 I am particularly interested in responsible AI systems that align with human values, and in the development of interpretable models for scientific discovery and healthcare reasoning.
 
