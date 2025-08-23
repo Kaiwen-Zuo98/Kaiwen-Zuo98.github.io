@@ -5,7 +5,7 @@ permalink: /
 
 profile:
   align: right
-  image: Kaiwen-Zuo98.github.io/assets/img/favicon.ico
+  image: assets/img/kaiwen.jpg
 
   email: >
     <p>Cam Email: kz344<code>[at]</code>cam<code>[dot]</code>ac<code>[dot]</code>uk</p>
