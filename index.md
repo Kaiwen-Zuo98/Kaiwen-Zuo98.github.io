@@ -8,7 +8,6 @@ profile:
   image: /assets/img/kaiwen.jpg
 
   email: >
-    <p>Cam Email: kz344<code>[at]</code>cam<code>[dot]</code>ac<code>[dot]</code>uk</p>
     <p>Warwick Email: Kaiwen.Zuo<code>[at]</code>warwick<code>[dot]</code>ac<code>[dot]</code>uk</p>
     
 news: true
