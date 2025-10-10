@@ -128,7 +128,7 @@ exclude:
   - vendor
 keep_files:
   - CNAME
-  - .nojekyll
+  - favicon.ico
   - .git
 
 # Plug-ins
