@@ -5,7 +5,7 @@ title: >
     KG4Diagnosis: A Hierarchical Multi-Agent LLM Framework with Knowledge Graph Enhancement for Medical Diagnosis
 key: kg4diagnosis2025
 author: Zuo, Kaiwen and Jiang, Yirui and Mo, Fan and Liò, Pietro
-correspondence: Liò, Pietro
+correspondence: Mo, Fan
 abbr: AAAI-25 Bridge Program  
 journal: AAAI Bridge Program  
 pdf: https://arxiv.org/abs/2412.16833  
