@@ -2,22 +2,24 @@
 layout: pub
 type: article
 title: >
-    Amulet: ReAlignment During Test Time for Personalized Preference Adaptation of LLMs
-key: iclr25amulet
-author: Zhang, Zhaowei and Bai, Fengshuo and Chen, Qizhi and Ma, Chengdong and Wang, Mingzhi and Sun, Haoran and Zheng, Zilong and Yang, Yaodong
-correspondence: Zheng, Zilong and Yang, Yaodong
-abbr: ICLR'25
-journal: ICLR
-pdf: https://openreview.net/forum?id=f9w89OY2cp
-year: 2025
-selected: true
+    KG4Diagnosis: A Hierarchical Multi-Agent LLM Framework with Knowledge Graph Enhancement for Medical Diagnosis
+key: kg4diagnosis2025
+author: Zuo, Kaiwen and Jiang, Yirui and Mo, Fan and Liò, Pietro
+correspondence: Liò, Pietro
+abbr: AAAI-25 Bridge Program  
+journal: AAAI Bridge Program  
+pdf: https://arxiv.org/abs/2412.16833  
+year: 2025  
+selected: true  
 abstract: >
-    How to align large language models (LLMs) with user preferences from a static general dataset has been frequently studied. However, user preferences are usually personalized, changing, and diverse. This leads to the problem that the actual user preferences often do not coincide with those trained by the model developers in the practical use of LLMs. Since we cannot collect enough data and retrain for every demand, researching efficient real-time preference adaptation methods based on the backbone LLMs during test time is important. To this end, we introduce Amulet, a novel, training-free framework that formulates the decoding process of every token as a separate online learning problem with the guidance of simple user-provided prompts, thus enabling real-time optimization to satisfy users' personalized preferences. To reduce the computational cost brought by this optimization process for each token, we additionally provide a closed-form solution for each iteration step of the optimization process, thereby reducing the computational time cost to a negligible level. The detailed experimental results demonstrate that Amulet can achieve significant performance improvements in rich settings with combinations of different LLMs, datasets, and user preferences, while maintaining acceptable computational efficiency.
+    Integrating large language models (LLMs) into healthcare diagnosis demands systematic frameworks capable of handling complex medical scenarios while preserving domain-specific expertise. Here we propose KG4Diagnosis — a hierarchical multi-agent framework that integrates LLMs with automated medical knowledge graph construction, covering 362 common diseases across specialties. The system mirrors real-world clinical workflows via a two-tier architecture: a general-practitioner agent conducts initial assessment and triage, then delegates to specialized agents for in-depth diagnosis in specific domains. Our core innovation lies in an end-to-end knowledge graph generation pipeline, which combines semantic-driven entity and relation extraction, multi-dimensional decision-relationship reconstruction from unstructured medical texts, and human-guided reasoning for knowledge expansion. KG4Diagnosis establishes an extensible, modular foundation for accurate and scalable AI-powered medical diagnosis systems.  
 bibtex: >
-    @inproceedings{zhang2025amulet,
-        title={Amulet: ReAlignment During Test Time for Personalized Preference Adaptation of LLMs}, 
-        author={Zhang, Zhaowei and Bai, Fengshuo and Chen, Qizhi and Ma, Chengdong and Wang, Mingzhi and Sun, Haoran and Zheng, Zilong and Yang, Yaodong},
-        booktitle={The Thirteenth International Conference on Learning Representations},
-        year={2025}
+    @article{zuo2025kg4diagnosis,
+      title={KG4Diagnosis: A Hierarchical Multi-Agent LLM Framework with Knowledge Graph Enhancement for Medical Diagnosis},
+      author={Zuo, Kaiwen and Jiang, Yirui and Mo, Fan and Liò, Pietro},
+      journal={AAAI Bridge Program},
+      year={2025},
+      note={Preprint on arXiv},
+      url={https://arxiv.org/abs/2412.16833}
     }
 ---
