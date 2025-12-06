@@ -18,10 +18,11 @@ I am currently pursuing a **Ph.D. in Computer Science** at the [University of Wa
 
 My research interests lie at the intersection of:
 
-- **AI for Healthcare**
-- **Information Retrieval (IR)**  
-- **Large Language Models (LLMs)**  
-- **Graph Neural Networks (GNNs)**  
+- **AI for Healthcare**: Investigating the performance of generalist medical models, and leveraging AGI to empower healthcare — aiming to alleviate real-world access constraints and improve equity in medical care.  
+- **Safety-oriented AI**: Exploring the safety, trustworthiness, and reliability of general medical models, with a focus on ensuring their robustness and clinical readiness.  
+- **Large Language Models (LLMs)**: Examining the diagnostic and prognostic capabilities of large language models in clinical and biomedical contexts.  
+- **Agentic Systems**: Advocating for system-level intelligence in next-generation medical AI — to address the complexity of real-world healthcare tasks and support integrated, scalable clinical workflows.  
+
 
 
 In addition to my doctoral research, I am a doctoral exchange student at the **Alan Turing Institute**, and an active member of **CBAIA**, **UK-CSAE**, and **CLSS-UK**. These affiliations allow me to collaborate with leading researchers across disciplines and foster strong academic networks.
