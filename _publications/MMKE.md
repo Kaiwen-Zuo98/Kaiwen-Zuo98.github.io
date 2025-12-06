@@ -4,7 +4,7 @@ type: article
 title: >  
     MedHallBench: A New Benchmark for Assessing Hallucination in Medical Large Language Models  
 key: medhallbench2025  
-author: Zuo, Kaiwen and Jiang, Yirui  
+author: **Zuo, Kaiwen** and Jiang, Yirui  
 correspondence: Jiang, Yirui  
 abbr: AAAI-25 Bridge Program  
 journal: AAAI Bridge Program  
