@@ -1,25 +1,26 @@
 ---
 layout: pub
 type: article
-key: iclr25ice
+key: med-ai-safety-2508
 title: >
-    In-Context Editing: Learning Knowledge from Self-Induced Distributions
-author: Qi, Siyuan and Yang, Bangcheng, and Jiang, Kailin and Wang, Xiaobo and Li, Jiaqi and Zhong, Yifan and Yang, Yaodong and Zheng, Zilong
-correspondence: Qi, Siyuan and Zheng, Zilong
-abbr: ICLR'25
-# journal: The Tenth International Conference on Learning Representations (ICLR)
-journal: ICLR
-arxiv: 2406.11194
+  How to Make Medical AI Systems Safer? Simulating Vulnerabilities and Threats in Multimodal Medical RAG Systems
+author: Kaiwen Zuo, Zelin Liu, Raman Dutt, Ziyang Wang, Zhongtian Sun, Fan Mo, Pietro Liò
+correspondence: Kaiwen Zuo and Fan Mo
+abbr: MedAI-Safe ’25
+journal: arXiv preprint
+arxiv: 2508.17215
 year: 2025
 selected: true
-code: https://github.com/bigai-ai/ICE
+code: (optional — 若有项目代码可填)
 abstract: >
-    The existing fine-tuning paradigm for language models is brittle in knowledge editing scenarios, where the model must incorporate new information without extensive retraining. This brittleness often results in overfitting, reduced performance, and unnatural language generation. To address this, we propose Consistent In-Context Editing (ICE), a novel approach that leverages the model's in-context learning capability to tune toward a contextual distribution rather than a one-hot target. ICE introduces a straightforward optimization framework that includes both a target and a procedure, enhancing the robustness and effectiveness of gradient-based tuning methods. We provide analytical insights into ICE across four critical aspects of knowledge editing: accuracy, locality, generalization, and linguistic quality, showing its advantages. Experimental results across four datasets confirm the effectiveness of ICE and demonstrate its potential for continual editing, ensuring that updated information is incorporated while preserving the integrity of the model.
+  Large Vision–Language Models (LVLMs) augmented with Retrieval-Augmented Generation (RAG) are increasingly used in medical AI for improved factual grounding via external clinical image-text retrieval. However, this reliance introduces a significant attack surface. We propose MedThreatRAG, a novel multimodal poisoning framework that systematically probes vulnerabilities in medical RAG systems by injecting adversarial image-text pairs. A key innovation is a Cross-Modal Conflict Injection (CMCI) method, which embeds subtle semantic contradictions between medical images and their paired reports, degrading retrieval and generation by disrupting cross-modal alignment while remaining plausible enough to evade conventional filters. Evaluations on IU-Xray and MIMIC-CXR QA tasks show MedThreatRAG reduces answer F1 scores by up to 27.66% and lowers LLaVA-Med-1.5 F1 rates to as low as 51.36%, exposing serious security gaps in clinical RAG systems. We also propose guidelines to inform safer design of future multimodal medical RAG systems.
 bibtex: >
-    @inproceedings{qi2025ice,
-        title={In-Context Editing: Learning Knowledge from Self-Induced Distributions}, 
-        author={Qi, Siyuan and Yang, Bangcheng, and Jiang, Kailin and Wang, Xiaobo and Li, Jiaqi and Zhong, Yifan and Yang, Yaodong and Zheng, Zilong},
-        booktitle={The Thirteenth International Conference on Learning Representations},
-        year={2025}
-    }
+  @article{zuo2025medai,
+    title = {How to Make Medical AI Systems Safer? Simulating Vulnerabilities and Threats in Multimodal Medical RAG Systems},
+    author = {Kaiwen Zuo and Zelin Liu and Raman Dutt and Ziyang Wang and Zhongtian Sun and Yeming Wang and Fan Mo and Pietro Liò},
+    journal = {arXiv preprint},
+    year = {2025},
+    archivePrefix = {arXiv},
+    eprint = {2508.17215}
+  }
 ---
