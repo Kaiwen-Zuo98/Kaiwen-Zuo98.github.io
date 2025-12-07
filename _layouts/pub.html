@@ -37,8 +37,8 @@
       {% assign first_name = name[1] | strip %}
       {% assign last_name = name[0] | strip %}
       {% assign author_is_self = false %}
-      {% if last_name == site.scholar.last_name%}
-      {% if site.scholar.first_name contains first_name%}
+      {% if last_name == site.last_name%}
+      {% if site.first_name contains first_name%}
       {% assign author_is_self = true %}
       {%- endif -%}
       {%- endif -%}
