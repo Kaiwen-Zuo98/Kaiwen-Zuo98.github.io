@@ -5,8 +5,8 @@ key: med-ai-safety-2508
 title: >
   How to Make Medical AI Systems Safer? Simulating Vulnerabilities and Threats in Multimodal Medical RAG Systems
 author: Kaiwen Zuo, Zelin Liu, Raman Dutt, Ziyang Wang, Zhongtian Sun, Fan Mo, Pietro Liò
-correspondence: Kaiwen Zuo and Fan Mo
-abbr: MedAI-Safe ’25
+correspondence: Pietro Liò and Fan Mo
+abbr: ICASSP-2026
 journal: arXiv preprint
 arxiv: 2508.17215
 year: 2025
