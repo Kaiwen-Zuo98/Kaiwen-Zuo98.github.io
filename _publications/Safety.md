@@ -4,8 +4,8 @@ type: article
 key: medaisafe25
 title: >
   How to Make Medical AI Systems Safer? Simulating Vulnerabilities and Threats in Multimodal Medical RAG Systems
-author: Zuo, Kaiwen and Liu, Zelin and Dutt, Raman and Wang, Ziyang and Sun, Zhongtian and Wang, Yeming and Mo, Fan and Lió, Pietro
-correspondence: Zuo, Kaiwen and Mo, Fan
+author: Zuo, Kaiwen and Liu, Zelin and Dutt, Raman and Wang, Ziyang and Sun, Zhongtian and Mo, Fan and Lió, Pietro
+correspondence: Lió, Pietro and Mo, Fan
 abbr: arXiv'25
 journal: arXiv preprint
 arxiv: 2508.17215
