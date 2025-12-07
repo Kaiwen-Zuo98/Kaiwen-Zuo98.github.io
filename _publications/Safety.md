@@ -1,26 +1,28 @@
 ---
 layout: pub
 type: article
-key: med-ai-safety-2508
+key: medaisafe25
 title: >
   How to Make Medical AI Systems Safer? Simulating Vulnerabilities and Threats in Multimodal Medical RAG Systems
-author: Kaiwen Zuo, Zelin Liu, Raman Dutt, Ziyang Wang, Zhongtian Sun, Fan Mo, Pietro Liò
-correspondence: Pietro Liò and Fan Mo
-abbr: ICASSP-2026
+author: Zuo, Kaiwen and Liu, Zelin and Dutt, Raman and Wang, Ziyang and Sun, Zhongtian and Wang, Yeming and Mo, Fan and Lió, Pietro
+correspondence: Zuo, Kaiwen and Mo, Fan
+abbr: arXiv'25
 journal: arXiv preprint
 arxiv: 2508.17215
 year: 2025
 selected: true
-code: (optional — 若有项目代码可填)
+code:
 abstract: >
-  Large Vision–Language Models (LVLMs) augmented with Retrieval-Augmented Generation (RAG) are increasingly used in medical AI for improved factual grounding via external clinical image-text retrieval. However, this reliance introduces a significant attack surface. We propose MedThreatRAG, a novel multimodal poisoning framework that systematically probes vulnerabilities in medical RAG systems by injecting adversarial image-text pairs. A key innovation is a Cross-Modal Conflict Injection (CMCI) method, which embeds subtle semantic contradictions between medical images and their paired reports, degrading retrieval and generation by disrupting cross-modal alignment while remaining plausible enough to evade conventional filters. Evaluations on IU-Xray and MIMIC-CXR QA tasks show MedThreatRAG reduces answer F1 scores by up to 27.66% and lowers LLaVA-Med-1.5 F1 rates to as low as 51.36%, exposing serious security gaps in clinical RAG systems. We also propose guidelines to inform safer design of future multimodal medical RAG systems.
+  Large Vision–Language Models (LVLMs) augmented with Retrieval-Augmented Generation (RAG) are increasingly deployed in medical AI applications to improve factual grounding by leveraging external clinical image–text retrieval. However, this reliance substantially expands the attack surface. To investigate this risk, we introduce MedThreatRAG, a comprehensive multimodal poisoning framework that systematically simulates vulnerabilities and threat pathways in medical RAG systems by injecting adversarial image–text pairs.
+  
+  Central to our framework is Cross-Modal Conflict Injection (CMCI), a novel adversarial strategy that embeds subtle yet harmful semantic contradictions between medical images and their associated reports. These contradictions degrade cross-modal alignment, disrupt retrieval, and mislead downstream reasoning—while remaining realistic enough to bypass standard filtering defenses.  
+
+  Experiments on IU-Xray and MIMIC-CXR QA benchmarks show that MedThreatRAG can reduce answer F1 scores by up to 27.66%, and lower LLaVA-Med-1.5 performance to 51.36%, highlighting severe security risks in existing medical RAG pipelines. We further provide concrete design guidelines for building safer multimodal medical AI systems.
 bibtex: >
-  @article{zuo2025medai,
-    title = {How to Make Medical AI Systems Safer? Simulating Vulnerabilities and Threats in Multimodal Medical RAG Systems},
-    author = {Kaiwen Zuo and Zelin Liu and Raman Dutt and Ziyang Wang and Zhongtian Sun and Yeming Wang and Fan Mo and Pietro Liò},
-    journal = {arXiv preprint},
-    year = {2025},
-    archivePrefix = {arXiv},
-    eprint = {2508.17215}
+  @article{zuo2025medthreatrag,
+    title={How to Make Medical AI Systems Safer? Simulating Vulnerabilities and Threats in Multimodal Medical RAG Systems},
+    author={Zuo, Kaiwen and Liu, Zelin and Dutt, Raman and Wang, Ziyang and Sun, Zhongtian and Wang, Yeming and Mo, Fan and Lio, Pietro},
+    journal={arXiv preprint arXiv:2508.17215},
+    year={2025}
   }
 ---
