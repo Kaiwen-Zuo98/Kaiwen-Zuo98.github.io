@@ -5,7 +5,7 @@ title: >
     HEAL-KGGen: A Hierarchical Multi-Agent LLM Framework with Knowledge Graph Enhancement for Genetic Biomarker-Based Medical Diagnosis
 author: Zuo, Kaiwen and Zhong, Zixuan and Huang, Peizhou and Tang, Shiyan and Chen, Yuyan and Jiang, Yirui
 # abbr: bioRxiv'25
-correspondence:Zuo, Kaiwen and Jiang, Yirui  # 官方未标注通讯作者，可按需补充
+correspondence: Zuo, Kaiwen and Jiang, Yirui  # 官方未标注通讯作者，可按需补充
 journal: bioRxiv
 doi: 10.1101/2025.06.03.657521
 elocation-id: 2025.06.03.657521
