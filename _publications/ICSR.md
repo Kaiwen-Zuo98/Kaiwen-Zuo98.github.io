@@ -2,21 +2,22 @@
 layout: pub
 type: journal
 title: >
-    Large language models are in-context semantic reasoners rather than symbolic reasoners
-author: Tang, Xiaojuan and Zheng, Zilong and Li, Jiaqi and Meng, Fanxu and Zhu, Song-Chun and Liang, Yitao and Zhang, Muhan
-year: 2023
-equalauthor: Tang, Xiaojuan and Zheng, Zilong
-journal: arXiv
-arxiv: 2305.14825
-preprint: true
-code: https://github.com/XiaojuanTang/ICSR
-abstract: >
-    The emergent few-shot reasoning capabilities of Large Language Models (LLMs) have excited the natural language and machine learning community over recent years. Despite of numerous successful applications, the underlying mechanism of such in-context capabilities still remains unclear. In this work, we hypothesize that the learned \textit{semantics} of language tokens do the most heavy lifting during the reasoning process. Different from human's symbolic reasoning process, the semantic representations of LLMs could create strong connections among tokens, thus composing a superficial logical chain. To test our hypothesis, we decouple semantics from the language reasoning process and evaluate three kinds of reasoning abilities, i.e., deduction, induction and abduction. Our findings reveal that semantics play a vital role in LLMs' in-context reasoning -- LLMs perform significantly better when semantics are consistent with commonsense but struggle to solve symbolic or counter-commonsense reasoning tasks by leveraging in-context new knowledge. The surprising observations question whether modern LLMs have mastered the inductive, deductive and abductive reasoning abilities as in human intelligence, and motivate research on unveiling the magic existing within the black-box LLMs. On the whole, our analysis provides a novel perspective on the role of semantics in developing and evaluating language models' reasoning abilities. 
+    SPEAKSMART: Evaluation of Empathetic and Persuasive Responses of Large Language Models
+author: Chen, Yuyan and Jia, Jiyuan and Chang, Jingwen and Zuo, Kaiwen and Xiao, Yanghua
+# equalauthor:  # No co-first authors specified
+year: 2025
+selected: true
+month: 3  # Published in March 2025
+journal: Journal of Computer Science
+url: https://wap.cnki.net/touch/web/Journal/Article/JSJA202510026.html
+preprint: false  
 bibtex: >
-    @article{tang2023icsr,
-        title   = {Large language models are in-context semantic reasoners rather than symbolic reasoners},
-        author  = {Tang, Xiaojuan and Zheng, Zilong and Li, Jiaqi and Meng, Fanxu and Zhu, Song-Chun and Liang, Yitao and Zhang, Muhan},
-        year    = {2023},
-        journal = {arXiv preprint arXiv: 2305.14825}
+    @article{chen2025speaksmart,
+        title={SPEAKSMART: Evaluation of Empathetic and Persuasive Responses of Large Language Models},
+        author={Chen, Yuyan and Jia, Jiyuan and Chang, Jingwen and Zuo, Kaiwen and Xiao, Yanghua},
+        year={2025},
+        month={3},
+        journal={Journal of Computer Science},
+        url={https://wap.cnki.net/touch/web/Journal/Article/JSJA202510026.html}
     }
 ---
