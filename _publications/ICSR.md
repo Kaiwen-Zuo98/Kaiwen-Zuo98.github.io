@@ -9,6 +9,7 @@ year: 2025
 selected: true
 month: 3  # Published in March 2025
 journal: Journal of Computer Science
+abbr: Journal of Computer Science
 pdf: https://wap.cnki.net/touch/web/Journal/Article/JSJA202510026.html
 preprint: false  
 bibtex: >
