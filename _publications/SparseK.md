@@ -9,6 +9,7 @@ correspondence: Zuo, Kaiwen and Jiang, Yirui  # 官方未标注通讯作者，�
 journal: bioRxiv
 doi: 10.1101/2025.06.03.657521
 elocation-id: 2025.06.03.657521
+pdf: https://arxiv.org/abs/2412.18947](https://www.biorxiv.org/content/10.1101/2025.06.03.657521v1.full.pdf
 year: 2025
 preprint: true
 selected: true
