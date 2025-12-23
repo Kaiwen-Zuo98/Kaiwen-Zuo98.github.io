@@ -2,23 +2,29 @@
 layout: pub
 type: journal
 title: >
-    Sparser is Faster and Less is More: Efficient Sparse Attention for Long-Range Transformers
-author: Lou, Chao and Jia, Zixia and Zheng, Zilong and Tu, Kewei
-# abbr: EMNLP'24
-correspondence: Zheng, Zilong and Tu, Kewei
-# pdf: https://aclanthology.org/2023.emnlp-main.334.pdf
-journal: arXiv
-arxiv: 2406.16747
-year: 2024
+    HEAL-KGGen: A Hierarchical Multi-Agent LLM Framework with Knowledge Graph Enhancement for Genetic Biomarker-Based Medical Diagnosis
+author: Zuo, Kaiwen and Zhong, Zixuan and Huang, Peizhou and Tang, Shiyan and Chen, Yuyan and Jiang, Yirui
+# abbr: bioRxiv'25
+correspondence:Zuo, Kaiwen and Jiang, Yirui  # 官方未标注通讯作者，可按需补充
+journal: bioRxiv
+doi: 10.1101/2025.06.03.657521
+elocation-id: 2025.06.03.657521
+year: 2025
 preprint: true
 selected: true
 abstract: >
-    Accommodating long sequences efficiently in autoregressive Transformers, especially within an extended context window, poses significant challenges due to the quadratic computational complexity and substantial KV memory requirements inherent in self-attention mechanisms. In this work, we introduce SPARSEK Attention, a novel sparse attention mechanism designed to overcome these computational and memory obstacles while maintaining performance. Our approach integrates a scoring network and a differentiable top-k mask operator, SPARSEK, to select a constant number of KV pairs for each query, thereby enabling gradient-based optimization. As a result, SPARSEK Attention offers linear time complexity and constant memory footprint during generation. Experimental results reveal that SPARSEK Attention outperforms previous sparse attention methods and provides significant speed improvements during both training and inference, particularly in language modeling and downstream tasks. Furthermore, our method can be seamlessly integrated into pre-trained Large Language Models (LLMs) with minimal fine-tuning, offering a practical solution for effectively managing long-range dependencies in diverse applications.
+    The discovery and validation of genetic biomarkers across diverse diseases demand intelligent systems capable of integrating complex multi-omics data with clinical relevance. We introduce HEAL-KGGen, an end-to-end framework that enhances Large Language Models (LLMs) through a hierarchical multi-agent architecture and an automatically constructed medical knowledge graph. The system includes a General Practitioner (GP) agent for initial biomarker triage and specialist agents for genomics, transcriptomics, proteomics, and clinical interpretation. The core innovation of HEAL-KGGen lies in its dynamic knowledge graph pipeline, which combines entity extraction based on patterns and semantics, ontology-aligned normalization (using UMLS, MeSH, SNOMED CT) and the construction of multi-source relationships from biomedical databases and literature. Retrieved subgraphs are transformed into contextual prompts that guide LLM reasoning via structured, explainable pathways. Our experiments show that HEAL-KGGen significantly improves question-answering accuracy across multiple mainstream large language models, with the highest improvement observed on Claude 3.5 Sonnet achieving a 43.75% increase in accuracy, confirming the value of domain-specific graph knowledge in advancing LLM performance for genetic and molecular diagnostics. Competing Interest Statement: The authors have declared no competing interest.
 bibtex: >
-    @article{lou2024sparsek,
-        title={Sparser is Faster and Less is More: Efficient Sparse Attention for Long-Range Transformers},
-        author={Lou, Chao and Jia, Zixia and Zheng, Zilong and Tu, Kewei},
-        journal = {arXiv preprint arXiv: 2406.16747},
-        year={2024}
+    @article {Zuo2025.06.03.657521,
+        author = {Zuo, Kaiwen and Zhong, Zixuan and Huang, Peizhou and Tang, Shiyan and Chen, Yuyan and Jiang, Yirui},
+        title = {HEAL-KGGen: A Hierarchical Multi-Agent LLM Framework with Knowledge Graph Enhancement for Genetic Biomarker-Based Medical Diagnosis},
+        elocation-id = {2025.06.03.657521},
+        year = {2025},
+        doi = {10.1101/2025.06.03.657521},
+        publisher = {Cold Spring Harbor Laboratory},
+        abstract = {The discovery and validation of genetic biomarkers across diverse diseases demand intelligent systems capable of integrating complex multi-omics data with clinical relevance. We introduce HEAL-KGGen, an end-to-end framework that enhances Large Language Models (LLMs) through a hierarchical multi-agent architecture and an automatically constructed medical knowledge graph. The system includes a General Practitioner (GP) agent for initial biomarker triage and specialist agents for genomics, transcriptomics, proteomics, and clinical interpretation. The core innovation of HEAL-KGGen lies in its dynamic knowledge graph pipeline, which combines entity extraction based on patterns and semantics, ontology-aligned normalization (using UMLS, MeSH, SNOMED CT) and the construction of multi-source relationships from biomedical databases and literature. Retrieved subgraphs are transformed into contextual prompts that guide LLM reasoning via structured, explainable pathways. Our experiments show that HEAL-KGGen significantly improves question-answering accuracy across multiple mainstream large language models, with the highest improvement observed on Claude 3.5 Sonnet achieving a 43.75% increase in accuracy, confirming the value of domain-specific graph knowledge in advancing LLM performance for genetic and molecular diagnostics.Competing Interest StatementThe authors have declared no competing interest.},
+        URL = {https://www.biorxiv.org/content/early/2025/06/06/2025.06.03.657521},
+        eprint = {https://www.biorxiv.org/content/early/2025/06/06/2025.06.03.657521.full.pdf},
+        journal = {bioRxiv}
     }
 ---
