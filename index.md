@@ -8,7 +8,7 @@ profile:
   image: kaiwenImag.jpg
 
   email: >
-    <p>Warwick Email: Kaiwen.Zuo<code>[at]</code>warwick<code>[dot]</code>ac<code>[dot]</code>uk</p>
+    <p>Warwick Email: Kaiwen<code>[dot]</code>Zuo<code>[at]</code>warwick<code>[dot]</code>ac<code>[dot]</code>uk</p>
     
 news: true
 selected_papers: true
